@@ -1,0 +1,18 @@
+# Personal / unused media
+my photos/
+transformations/*2026-08-20*
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
+desktop.ini
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

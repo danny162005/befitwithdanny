@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>befitwithdanny | Dnyanesh Kolekar</title>
+  <meta
+    name="description"
+    content="Science-backed online and offline fitness coaching by Dnyanesh Kolekar under befitwithdanny."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">befitwithdanny</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#transformations">Transformations</a>
+        <a href="#enquiry">Enquiry</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Dnyanesh Kolekar</p>
+          <h1>TRANSFORM YOUR LIFE.</h1>
+          <p class="hero-text">
+            Science-backed peak human performance. Burn minimum 300 kcal per
+            session. Personalized for those who demand excellence and want a
+            strong, sustainable body.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#enquiry">GET STARTED</a>
+            <a class="button button-secondary" href="#services">OUR SERVICES</a>
+          </div>
+          <ul class="hero-points">
+            <li>1:1 coaching by Dnyanesh Kolekar</li>
+            <li>Workout, nutrition, and accountability systems</li>
+            <li>Built for fat loss, muscle gain, and body recomposition</li>
+          </ul>
+
+          <div class="hero-badges">
+            <span>🔥 Science-backed coaching</span>
+            <span>🧠 Mindset + discipline</span>
+            <span>🥗 Smart nutrition systems</span>
+          </div>
+
+          <div class="hero-stat-strip">
+            <div class="mini-stat">
+              <strong data-count="300">300+</strong>
+              <span>Minimum kcal burn target</span>
+            </div>
+            <div class="mini-stat">
+              <strong data-count="500">500+</strong>
+              <span>Transformation-focused sessions</span>
+            </div>
+            <div class="mini-stat">
+              <strong>24/7</strong>
+              <span>Support driven coaching</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-1">
+          <span class="hero-orbit hero-orbit-one"></span>
+          <span class="hero-orbit hero-orbit-two"></span>
+          <img src="assets/coach-3.jpg" alt="Dnyanesh Kolekar in hero section">
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievements-section">
+      <div class="container achievements-grid">
+        <article class="achievement reveal">
+          <strong data-count="500">500+</strong>
+          <span>Lives touched through transformation systems</span>
+        </article>
+        <article class="achievement reveal reveal-delay-1">
+          <strong data-count="50">50+</strong>
+          <span>High-performance style body recomposition plans</span>
+        </article>
+        <article class="achievement reveal reveal-delay-2">
+          <strong data-count="3">3+</strong>
+          <span>Core pillars: training, nutrition, discipline</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container challenges">
+        <div class="section-copy reveal">
+          <p class="section-tag">Fitness Challenges</p>
+          <h2>Interactive tools from the sample site are now included.</h2>
+          <p>
+            The website keeps the challenge and calculator feel from the sample
+            so it remains engaging while still carrying your personal brand.
+          </p>
+        </div>
+
+        <div class="challenge-grid">
+          <article class="panel reveal">
+            <h3>Reaction Time Test</h3>
+            <p>Click when the button turns green and test your response speed.</p>
+            <button id="reaction-button" class="reaction-button">Start Challenge</button>
+            <p id="reaction-status" class="status-text">Tap start to begin.</p>
+          </article>
+
+          <article class="panel reveal reveal-delay-1">
+            <h3>Calculate BMR</h3>
+            <form id="bmr-form" class="bmr-form">
+              <label>
+                Gender
+                <select name="gender" required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </label>
+              <label>
+                Age
+                <input type="number" name="age" min="10" max="100" placeholder="28" required>
+              </label>
+              <label>
+                Height (cm)
+                <input type="number" name="height" min="100" max="250" placeholder="175" required>
+              </label>
+              <label>
+                Weight (kg)
+                <input type="number" name="weight" min="30" max="300" placeholder="70" required>
+              </label>
+              <label>
+                Activity Level
+                <select name="activity" required>
+                  <option value="1.2">Sedentary</option>
+                  <option value="1.375">Light Activity</option>
+                  <option value="1.55" selected>Moderate Activity</option>
+                  <option value="1.725">High Activity</option>
+                </select>
+              </label>
+              <button class="button button-primary" type="submit">Calculate My Needs</button>
+            </form>
+            <div id="bmr-result" class="result-card">
+              Enter your details and click calculate to see your personalized nutrition suggestions.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-dark">
+      <div class="container about-grid">
+        <div class="section-copy reveal">
+          <p class="section-tag">About befitwithdanny</p>
+          <h2>Hey, I'm Dnyanesh Kolekar!</h2>
+          <p>
+            Welcome to my fitness community. My own journey in the gym started
+            five years ago. While I hold a B.Com degree, my true passion has
+            always been health, lifting, and pushing past physical limits.
+            Three years ago, I realized that my biggest motivation wasn't just
+            my own progress, but helping others achieve theirs. That's when I
+            officially transitioned into coaching.
+          </p>
+          <p>
+            I believe in real results backed by real science. To make sure I am
+            providing my clients with the best possible guidance, I earned
+            three distinct certifications from MIFI:
+          </p>
+          <ul class="cert-list">
+            <li>🏆 Certified Fitness Trainer</li>
+            <li>🥗 Certified Nutrition Specialist</li>
+            <li>💊 Certified Supplement Specialist</li>
+          </ul>
+          <p>
+            Today, I'm incredibly grateful to share my workouts, nutrition
+            tips, and daily life with a family of over 46,000 of you on
+            Instagram. Whether you want to build muscle, drop body fat, or
+            just feel healthier and more confident, I'm here to give you the
+            blueprint.
+          </p>
+          <p class="about-signoff">Let's build your best self, together!</p>
+          <div class="stats">
+            <div class="stat">
+              <strong>5+</strong>
+              <span>Years In The Gym</span>
+            </div>
+            <div class="stat">
+              <strong>3+</strong>
+              <span>Years Coaching Experience</span>
+            </div>
+            <div class="stat">
+              <strong>46K+</strong>
+              <span>Instagram Community</span>
+            </div>
+            <div class="stat">
+              <strong>3</strong>
+              <span>MIFI Certifications</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-photo-grid reveal reveal-delay-1">
+          <img src="assets/coach-1.jpg" alt="Dnyanesh Kolekar mirror selfie">
+          <img src="assets/coach-2.jpg" alt="Dnyanesh Kolekar posing in gym">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-copy centered reveal">
+          <p class="section-tag">Why It Works</p>
+          <h2>Built to transform your body without making your life harder.</h2>
+          <p>
+            This version explains the coaching value more clearly and feels more
+            like a premium fitness brand instead of placeholder content.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <article class="value-card reveal">
+            <div class="value-icon">🧠</div>
+            <h3>Mindset First</h3>
+            <p>Progress starts with discipline. The system is built to keep you locked in even when motivation drops.</p>
+          </article>
+          <article class="value-card reveal reveal-delay-1">
+            <div class="value-icon">📊</div>
+            <h3>Plans With Precision</h3>
+            <p>Training split, recovery, food choices, and progression all align with your body, schedule, and goal.</p>
+          </article>
+          <article class="value-card reveal reveal-delay-2">
+            <div class="value-icon">♾️</div>
+            <h3>Sustainable Results</h3>
+            <p>No crash approach, no random hacks. The structure is meant to be followed consistently and actually last.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-copy reveal">
+          <p class="section-tag">Our Services</p>
+          <h2>Coaching services that feel premium, personal, and powerful.</h2>
+          <p>
+            The services section now feels closer to the sample website with
+            stronger presentation, better emotion, and more visual appeal.
+          </p>
+        </div>
+
+        <div class="service-highlights reveal">
+          <span>🎁 Unlock special offers after the quiz</span>
+          <span>⚡ Structured progress reviews</span>
+          <span>📱 WhatsApp-based support system</span>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured reveal">
+            <p class="service-badge">Top Selling</p>
+            <div class="service-head">
+              <span class="service-emoji">🌐</span>
+              <div>
+                <h3>Online Personal Training</h3>
+                <p class="service-summary">Elite 1:1 coaching from anywhere with live support and structured accountability.</p>
+              </div>
+            </div>
+            <ul>
+              <li>🔥 Burn minimum 300 kcal per session</li>
+              <li>🎥 Live 1:1 online training sessions</li>
+              <li>📈 Tailored workout and nutrition plan</li>
+              <li>📊 Weekly progress reviews</li>
+              <li>💬 24/7 WhatsApp support</li>
+            </ul>
+            <p class="service-footer">Best for busy clients who still want a serious transformation system.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-head">
+              <span class="service-emoji">📍</span>
+              <div>
+                <h3>Offline Personal Training</h3>
+                <p class="service-summary">Direct in-person coaching with form correction, intensity control, and real-time guidance.</p>
+              </div>
+            </div>
+            <ul>
+              <li>💪 In-person guided training</li>
+              <li>🏋️ Gym, park, or society setup</li>
+              <li>🛠️ Physical form correction</li>
+              <li>🔄 Hybrid online support</li>
+              <li>🧭 Customized planning</li>
+            </ul>
+            <p class="service-footer">Perfect for clients who want hands-on correction and stronger session intensity.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-head">
+              <span class="service-emoji">📋</span>
+              <div>
+                <h3>D.I.Y. Plan</h3>
+                <p class="service-summary">A structured roadmap for self-driven people who need clarity, not confusion.</p>
+              </div>
+            </div>
+            <ul>
+              <li>🎓 Budget-friendly structured roadmap</li>
+              <li>📝 Workout and nutrition guidance</li>
+              <li>🎬 Exercise video support</li>
+              <li>🚀 Motivation and habit structure</li>
+              <li>📂 Digital progress tracking</li>
+            </ul>
+            <p class="service-footer">Ideal for students and disciplined clients who want a lower-cost system.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-head">
+              <span class="service-emoji">🍎</span>
+              <div>
+                <h3>Nutrition Coaching</h3>
+                <p class="service-summary">Fuel your body with a plan that supports performance, recovery, and fat loss.</p>
+              </div>
+            </div>
+            <ul>
+              <li>🥗 Tailored meal planning</li>
+              <li>🔢 Macro education</li>
+              <li>💊 Supplement guidance</li>
+              <li>🍕 Social dining flexibility</li>
+              <li>🌱 Long-term sustainability</li>
+            </ul>
+            <p class="service-footer">Great for clients who need food structure without extreme dieting.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-head">
+              <span class="service-emoji">👥</span>
+              <div>
+                <h3>Group Sessions</h3>
+                <p class="service-summary">High-energy sessions for teams, friends, or families who want to train together.</p>
+              </div>
+            </div>
+            <ul>
+              <li>🤝 Friends and corporate group batches</li>
+              <li>🎯 Shared accountability</li>
+              <li>🌐 Flexible hybrid format</li>
+              <li>📈 Tailored intensity levels</li>
+              <li>⚡ Motivational training environment</li>
+            </ul>
+            <p class="service-footer">Best for group energy, team spirit, and accountability-based momentum.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-head">
+              <span class="service-emoji">🧠</span>
+              <div>
+                <h3>Fitness Counselling</h3>
+                <p class="service-summary">Break plateaus, rebuild discipline, and fix the mental blocks slowing you down.</p>
+              </div>
+            </div>
+            <ul>
+              <li>🧘 Mindset and discipline coaching</li>
+              <li>😴 Recovery optimization</li>
+              <li>🚀 Plateau breaking systems</li>
+              <li>🔄 Scientific habit building</li>
+              <li>🎯 Goal strategy support</li>
+            </ul>
+            <p class="service-footer">For people who know what to do but need sharper structure and consistency.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="transformations" class="section section-dark">
+      <div class="container">
+        <div class="section-copy centered reveal">
+          <p class="section-tag">Transformations</p>
+          <h2>Real transformations from real people who trusted the system.</h2>
+          <p>
+            Every card below shows a piece of the journey — client check-ins,
+            physique updates, and coaching standards. Consistency compounds.
+          </p>
+        </div>
+
+        <div class="transform-grid">
+          <article class="transform-card reveal">
+            <img src="assets/before.jpg" alt="Transformation before photo">
+            <div class="transform-copy">
+              <span class="transform-label">Before</span>
+              <h3>Starting Point</h3>
+              <p>Early body composition stage with lower muscle definition, higher body fat, and no sharp structure yet.</p>
+              <ul class="transform-meta">
+                <li>Base physique stage</li>
+                <li>Room for strength and conditioning growth</li>
+              </ul>
+            </div>
+          </article>
+          <article class="transform-card reveal reveal-delay-1">
+            <img src="assets/after-front.jpg" alt="Transformation after front photo">
+            <div class="transform-copy">
+              <span class="transform-label">After Front</span>
+              <h3>Sharper Front Profile</h3>
+              <p>Visible fat loss, improved abdominal outline, leaner waistline, and stronger upper body presentation.</p>
+              <ul class="transform-meta">
+                <li>Improved body composition</li>
+                <li>Better symmetry and conditioning</li>
+              </ul>
+            </div>
+          </article>
+          <article class="transform-card reveal reveal-delay-2">
+            <img src="assets/after-back.jpg" alt="Transformation after back photo">
+            <div class="transform-copy">
+              <span class="transform-label">After Back</span>
+              <h3>Back Definition Upgrade</h3>
+              <p>Stronger lat spread, clearer shoulder-to-back structure, and more athletic posture from disciplined training.</p>
+              <ul class="transform-meta">
+                <li>Improved back detail</li>
+                <li>Better posture and muscular control</li>
+              </ul>
+            </div>
+          </article>
+          <article class="transform-card reveal">
+            <img src="transformations/WhatsApp%20Image%202026-09-09%20at%2015.49.33.jpeg" alt="Latest transformation front view">
+            <div class="transform-copy">
+              <span class="transform-label">New · Front</span>
+              <h3>Front Physique Update</h3>
+              <p>Latest check-in showing enhanced chest development, sharper abs, and balanced shoulder-to-waist ratio.</p>
+              <ul class="transform-meta">
+                <li>Push-day focused progression</li>
+                <li>Macro-aligned meal structure</li>
+              </ul>
+            </div>
+          </article>
+          <article class="transform-card reveal reveal-delay-1">
+            <img src="transformations/WhatsApp%20Image%202026-09-09%20at%2022.46.47.jpeg" alt="Latest transformation gym shot">
+            <div class="transform-copy">
+              <span class="transform-label">New · Gym</span>
+              <h3>Gym Conditioning Shot</h3>
+              <p>In-gym progress reflecting heavy compound lifts, refined conditioning, and consistent training discipline.</p>
+              <ul class="transform-meta">
+                <li>Compound lift focus</li>
+                <li>Weekly volume tracking</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-grid">
+        <article class="panel reveal">
+          <p class="section-tag">Testimonials</p>
+          <h2>Real results from real people.</h2>
+          <div class="testimonial">
+            <strong>Rohan Sharma</strong>
+            <p>"Phenomenal coaching, better discipline, and visible results in a short span of time."</p>
+          </div>
+          <div class="testimonial">
+            <strong>Priya Singh</strong>
+            <p>"The structured plan made everything easier to follow, even with a busy schedule."</p>
+          </div>
+          <div class="testimonial">
+            <strong>Amit Patel</strong>
+            <p>"Online coaching felt easy, supportive, and effective."</p>
+          </div>
+        </article>
+
+        <article class="panel faq-panel reveal reveal-delay-1">
+          <p class="section-tag">FAQ</p>
+          <h2>Frequently Asked Questions</h2>
+          <details open>
+            <summary>How long does it take to see results?</summary>
+            <p>Consistency, training intensity, recovery, and nutrition all matter. Visible progress depends on your starting point and routine.</p>
+          </details>
+          <details>
+            <summary>Do I need a gym membership?</summary>
+            <p>No. Plans can be built for gym, home, park, or hybrid training.</p>
+          </details>
+          <details>
+            <summary>Are the diet plans restrictive?</summary>
+            <p>The goal is sustainability, not crash dieting. Plans are structured to be realistic.</p>
+          </details>
+          <details>
+            <summary>What if I have an injury or medical issue?</summary>
+            <p>Training can be adjusted after understanding your condition, limitations, and recovery needs.</p>
+          </details>
+          <div class="support-box">
+            <strong>Still have questions?</strong>
+            <p>Reach out directly and get help with the right plan, schedule, or service fit before you start.</p>
+            <a href="#enquiry">Contact Support</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container referral-banner reveal">
+        <div>
+          <p class="section-tag">Refer a Friend</p>
+          <h2>Share the journey and get rewards.</h2>
+          <p>
+            This keeps the referral section feel from the sample site and can be
+            customized later with your real discount or offer.
+          </p>
+        </div>
+        <a class="button button-primary" href="#enquiry">Join the Mission</a>
+      </div>
+    </section>
+
+    <section id="enquiry" class="section enquiry-section">
+      <div class="container enquiry-grid">
+        <div class="section-copy reveal">
+          <p class="section-tag">Client Information Form</p>
+          <h2>Your transformation starts here.</h2>
+          <p>
+            This version includes more of the sample form structure so the page
+            feels complete on desktop, tablet, and mobile screens.
+          </p>
+          <p class="contact-line">
+            Brand: <strong>befitwithdanny</strong><br>
+            Coach: <strong>Dnyanesh Kolekar</strong>
+          </p>
+        </div>
+
+        <form class="enquiry-form reveal reveal-delay-1">
+          <label>
+            Full Name
+            <input type="text" placeholder="John Doe">
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com">
+          </label>
+          <label>
+            Age
+            <input type="number" placeholder="18">
+          </label>
+          <label>
+            Gender
+            <select>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Height (cm)
+            <input type="number" placeholder="175">
+          </label>
+          <label>
+            Weight (kg)
+            <input type="number" placeholder="70">
+          </label>
+          <label>
+            Occupation
+            <select>
+              <option>Student</option>
+              <option>Service</option>
+              <option>Business</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Contact Number
+            <input type="tel" placeholder="Your phone number">
+          </label>
+          <label>
+            Plan Interested In
+            <select>
+              <option>Personal Training</option>
+              <option>Fitness Counselling</option>
+              <option>Nutrition Coaching</option>
+              <option>Group Sessions</option>
+              <option>D.I.Y. Plan</option>
+            </select>
+          </label>
+          <label>
+            Primary Goal
+            <select>
+              <option>Fat Loss</option>
+              <option>Muscle Gain</option>
+              <option>General Fitness</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Workout Hours Per Week
+            <select>
+              <option>3-4 hours</option>
+              <option>5-6 hours</option>
+              <option>7+ hours</option>
+            </select>
+          </label>
+          <label>
+            Preferred Workout Time
+            <select>
+              <option>Morning</option>
+              <option>Afternoon</option>
+              <option>Evening</option>
+            </select>
+          </label>
+          <label>
+            Dietary Preference
+            <select>
+              <option>Vegetarian</option>
+              <option>Non-vegetarian</option>
+              <option>Eggetarian</option>
+              <option>Vegan</option>
+              <option>Jain</option>
+            </select>
+          </label>
+          <label>
+            How did you hear about us?
+            <select>
+              <option>Instagram</option>
+              <option>Facebook</option>
+              <option>From a Friend</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label class="full-width">
+            Medical History
+            <textarea rows="4" placeholder="Injuries, surgeries, chronic conditions, etc."></textarea>
+          </label>
+          <label class="full-width">
+            Preferred Training Environment
+            <div class="checkbox-row">
+              <span>Gym</span>
+              <span>Park</span>
+              <span>Society Club House</span>
+              <span>Online Training</span>
+            </div>
+          </label>
+          <label class="full-width">
+            Dedicated Level
+            <input type="range" min="1" max="10" value="7">
+          </label>
+          <button class="button button-primary full-width" type="button">Submit Enquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>
+        <strong>befitwithdanny</strong>
+        <p>Transforming bodies and lives, one workout at a time.</p>
+      </div>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
